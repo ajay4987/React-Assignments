@@ -6,12 +6,12 @@
 }
 .top{
     display: flex;
-    height: 34%;
+    height: 34vh;
     width: 99vw;
 }
 .yellow{
-    width: 50vw;
-    height: 32vh;
+    width: 49.5vw;
+    height: 33vh;
     background-color: yellow;
     
     margin: 10px;
@@ -21,12 +21,12 @@
 }
 .mid{
     width: 99vw;
-    height: 34%;
+    height: 33vh;
    
 
 }
-.pink{
-    width: 99vw;
+.red{
+    width: 98vw;
     height: 33vh;
     background-color: red;
     margin: 10px;
@@ -35,7 +35,7 @@
 .bottom{
     display: flex;
     width: 100vw;
-    height: 34%;
+    height: 33vh;
 }
 .blue{
     width: 33vw;
@@ -44,8 +44,7 @@
     margin: 10px;
     
 }
-@media screen and (min-width:320px) and
-(max-width:767px){
+@media only screen and (max-width:320px) {
     .bottom{
         display:flex ;
         flex-direction: column;
@@ -56,21 +55,35 @@
         height: 15vh;
         background-color: blue;
         margin: 10px;
+        flex-direction:column;
     }
-    #block{
+    #blocked{
         display: none;
     }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow{
+        width: 99vw;
+        height: 15vh;
+    }
+    
 }
-@media screen and (min-width:768px) and
-(max-width:1023px){
+@media screen and (max-width:768px) and (min-width:320px){
     .bottom{
         display:flex ;
-        height: 15vh;
+        
+        flex-direction: column;
     } 
     .blue{
-        width: 100vw;
+        width: 98vw;
         height: 15vh;
         background-color: blue;
         margin: 10px;
+        
+    }
+    #blocked{
+        display: none;
     }
 }
