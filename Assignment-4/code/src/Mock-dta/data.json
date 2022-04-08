@@ -1,0 +1,25 @@
+{
+    "user":[
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage": "/images/itachi.jpg",
+            "date": "10 Jan 2021"
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Sample Description",
+            "PostImage": "/images/Naruto-Cover.webp",
+            "date": "06 Jan 2021"
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Sample Description for Post",
+            "PostImage": "/images/some.webp",
+            "date": "29 Dec 2020"
+            }
+            ]
+}
