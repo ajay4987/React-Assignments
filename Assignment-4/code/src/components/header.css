@@ -1,0 +1,23 @@
+.head{
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+.header head{
+    display: inline-block;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+h1{
+    position: absolute;
+    top: 5px;
+    margin-left: 10px;
+    font-size: 50px;
+    color: blue;
+}
