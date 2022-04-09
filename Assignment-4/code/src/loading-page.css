@@ -1,0 +1,34 @@
+.btn{
+    margin-left: 120px;
+    margin-top: -30px;
+}
+.image img{
+    height: 75%;
+    width: 75%;
+}
+
+#landBtn{
+    margin-top: 50px;
+    padding: 3px 12px;
+    font-size: 28px;
+    background-color: #fff;
+    border: 2px solid green;
+    color: green;
+    border-radius: 10px;
+}
+
+#landBtn:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
+
+.txtLand{
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.txtLand p{
+    font-size: 42px;
+    color: green;
+}

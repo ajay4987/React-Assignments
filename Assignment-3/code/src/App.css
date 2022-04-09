@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.site-container{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    position: absolute;
+    left:20%;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height:15vh;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+#header-para{
+    font-size:30px;
+    color:silver
+}
+.header-mid{
+    font-Size:15px;
+    margin:0 10px 0 360px;
+}
+button{
+    height:30px;
+    width:70px;
+    margin:0 10px 0 360px;
+    background:black;color:white
+}
+.customer-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid black;
+    height:17vh;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.customer-info h3{
+    margin: 0px 0 10px 10px;
+}
+.order-info{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 15vh;
+    padding-top: 10px;
+    padding-left: 20px;
+    background: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+#order1{
+    margin:0px 0px 0px 25%
+}
+.order-para{
+    margin-top:10px
+}
+.order-time{
+    margin:0 10px 0 250px
+}
+#time1{
+    margin-top:10px
+}
+li{
+    margin-top: 10px;
+}
+.product-list{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 20vh;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+.checkbox{
+    margin: 50px 0 0 0;
+    width: 1vw;
+    height: 1vw;
+}
+img{
+    width:100px;
+    height: 100px;
+    margin: 10px 0 0 15px;
+} 
+.name{
+    margin:20px 0 0 30px
+}
+.arr{
+    margin:30px 0 0 175px;
+    font-size:40px;
+    color:silver
+}

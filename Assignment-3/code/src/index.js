@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const User = {
+  Name : 'Alan Ford',
+  EmployeeId : '00005152',
+  Appointment : '9:00 (24-05-2016)',
+  Email : 'alan.form@email.nl',
+  phone : '+31123456789',
+  profileImg:'https://www.w3schools.com/howto/img_avatar.png'
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
